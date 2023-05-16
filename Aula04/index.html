@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,37 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="button" value="Enviar" onclick="buscar()" />
+    <input type="button" value="Enviar" onclick="Buscar()" />
+    <input type="text" disabled name="xxx" />
     <script>
-        function buscar() {
-            var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", "http://viacep.com.br/ws/17055020/json/", true);
-            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-            xhttp.send();
+        function Buscar() {
+            var http = new XMLHttpRequest();
+            http.open("GET", "http://viacep.com.br/ws/17050790/json", true)
+            http.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+            http.send()
 
-            xhttp.onreadystatechange = function () {
-                if (this.readyState == 4 && this.status == 200) {
-                    console.log(this.responseText);
-
-                    var array = []
-
-                    array.push(JSON.parse(this.responseText))
-
-                    localStorage.setItem("Endereco", JSON.stringify(array));
-
-
-                    console.log(localStorage.getItem("Endereco"))
-                    
-                    dados = JSON.parse(localStorage.getItem("Endereco"))
-                    
-                    dados.forEach(item => {
-                        console.log(item.cep)
-                        console.log(item.logradouro)
-                    })
+            http.onreadystatechange = function () {
+                if (this.status == 200 && this.readyState == 4)
+                {
+                      console.log(this.responseText)
+                      var json = JSON.parse(this.responseText)
+                      console.log(json)
+                      console.log('Rua ' + json.logradouro)
                 }
-            };
+            }
         }
     </script>
 </body>
-
 </html>
