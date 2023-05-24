@@ -1,14 +1,58 @@
-## Aula13 - 09/05/2023
+## Aula 01 14/02/2023
+- Entendendo o funcionamento do JavaScript.
+    - Trabalhando com alert
+    - Trabalhando com prompt
+    - Trabalhando com DOM
+    - Trabalhando com variáveis
+    - Exercício
+        1 - Entre com dois números faça a some e retorne no DOM o resultado.
+        2 - Entre com dois números, faça a soma e a subtração e retorno no DOM os dois resultados.
+## Carnaval 21/02/2023
+
+## Aula02 28/02/2023
+- Trabalhando com elementos HTML
+- getdocument.getElementByID
+
+## Aula03 07/03/2023
+- FOR
+- Utilizando JavaScript para criação de itens HTML
+
+## Aula04 14/03/2023
+- Trabalhando com AJAX
+
+## Aula05 21/03/2023
+- Trabalhando com *localstorage*
+- Trabalho CEP (inicio)
+
+## Aula06 28/03/2023
+- Trabalho CEP (entrega)
+
+## Aula07 04/04/2023
+- Trabalhando com jQuery
+
+## Aula08 11/04/2023
+- Array
+- Criando Chat-bot
+
+## Aula09 18/04/2023
+- Continuação de Chat-bot
+
+## TecnoITE 25/04/2023
+
+## Aula 10 02/05/2023
+- Finalizando jQuery e Chat-Bot
+
+## Aula11 - 09/05/2023
 - Conhecendo VUE
 - Utilizando Vue em site legado
 - Criando uma nova aplicação em VUE
 
-## Aula14 - 16/05/2023
+## Aula12 - 16/05/2023
 - Trabalhando com v-if
 - Trabalhando com v-for
 - Axios
 - Trabalhando com Axios
 
-## Aula15 - 23/05/2023
+## Aula13 - 23/05/2023
 - Trabalhando com Vue-Router
 - Criando um template
