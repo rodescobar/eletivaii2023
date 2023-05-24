@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "aula0",
+=======
+  "name": "aula02",
+>>>>>>> 571c88c09ac1b2aaa2a380679b3b50fbe2c74da5
   "version": "0.0.0",
   "private": true,
   "scripts": {
