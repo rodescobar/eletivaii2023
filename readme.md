@@ -60,4 +60,23 @@
 ## Marvel API
 ca05a2b3710cdff08831d637eea049c3
 
+PublicKey: f8727091d2f4d1c2bc696790a9841775
+PrivateKey: 063fd08d38657173958c3108485a150556e3fcf0
+
 http://gateway.marvel.com/v1/public/comics?ts=1&apikey=1234&hash=
+
+
+`html
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+<script>
+   var timestamp = new Date().getTime();
+
+   var hash = CryptoJS.MD5(timestamp + "063fd08d38657173958c3108485a150556e3fcf0" + "f8727091d2f4d1c2bc696790a9841775");
+    alert(hash);
+</script>
+    </head>
+</html>
+`
