@@ -56,3 +56,8 @@
 ## Aula13 - 23/05/2023
 - Trabalhando com Vue-Router
 - Criando um template
+
+## Marvel API
+ca05a2b3710cdff08831d637eea049c3
+
+http://gateway.marvel.com/v1/public/comics?ts=1&apikey=1234&hash=
