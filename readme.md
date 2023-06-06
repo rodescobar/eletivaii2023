@@ -66,7 +66,7 @@ PrivateKey: 063fd08d38657173958c3108485a150556e3fcf0
 http://gateway.marvel.com/v1/public/comics?ts=1&apikey=1234&hash=
 
 
-`html
+```html
 <html>
     <head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
@@ -79,4 +79,4 @@ http://gateway.marvel.com/v1/public/comics?ts=1&apikey=1234&hash=
 </script>
     </head>
 </html>
-`
+```
